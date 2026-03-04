@@ -189,11 +189,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           ),
           const Divider(),
           // Filas con los botones de la calculadora
-          buildRow(["7", "8", "9", "÷"]),
+          buildRow(["1", "2", "3", "÷"]),
           buildRow(["4", "5", "6", "×"]),
-          buildRow(["1", "2", "3", "-"]),
-          buildRow(["C", "0", ".", "+"]),
-          buildRow(["⌫", "="]),
+          buildRow(["7", "8", "9", "-"]),
+          buildRow([ ".","0", "+"]),
+          buildRow(["C", "⌫", "="]),
         ],
       ),
     );
